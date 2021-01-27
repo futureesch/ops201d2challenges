@@ -6,7 +6,7 @@
 # Date of latest revision:      7/20/2020
 # Purpose:                      Learning 
 
-# What is a variable? It is an object
+# What is a variable?
 #some classmates used lspci
 network="ip a"
 network2="lspci"
