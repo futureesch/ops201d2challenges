@@ -9,9 +9,12 @@
 # What is a variable? It is an object
 
 # Declaration
-greeting="Hey Budday!"
+greeting="Hey Budday GUY!"
 
 # Call
+echo $greeting
+
+greeting="I'm not your Budday GUY, I'm your FWEND!"
 echo $greeting
 
 # Adding network fetch
