@@ -5,11 +5,9 @@
 # Date of latest revision: 1/28/2021      
 # Purpose: Create 4 directories, put the directories into an array, reference the array to create a new .txt file in each directory.                      
 
-# Declare global variables
-songlyrics_list=("amiwastedlyrics.txt" "timeframelyrics.txt" "reintroduceyoulyrics.txt" "foreveryourslyrics.txt")
-
 # Declare array:
-mkdir amiwasted foreveryours timeframe reintroduceyou
+
+songlyrics_list=("amiwastedlyrics.txt" "timeframelyrics.txt" "reintroduceyoulyrics.txt" "foreveryourslyrics.txt")
 
 # Declare functions:
 FileMaker () {
@@ -24,9 +22,10 @@ FileMover () {
 }
 
 #Main
+mkdir amiwasted foreveryours timeframe reintroduceyou
 FileMaker
 FileMover
 
-echo ${songfiles_list[*]} have been created and sorted
+echo ${songlyrics_list[*]} have been created and sorted
 
 #End
