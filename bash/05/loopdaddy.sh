@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script: loopdaddy.sh                       
-# Author: Tom Esch                      
+# Author: Tom Esch   Tom                    
 # Date of latest revision: 1/29/2021
 # Purpose:   Write a script that displays running processes, asks the user for a PID, then kills the process with that PID.
 # Use a loop in your script.  
