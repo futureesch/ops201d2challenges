@@ -29,7 +29,7 @@ open_port () {
 
 #show listening and well-known ports
 
-echo "Enter the ip address you wish you view "
+echo -e "Enter the ip address you wish you view "
 
 #request ip address of the target PC from user
 
