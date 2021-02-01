@@ -38,7 +38,7 @@ read answer
 # Main: for this challenge the function IS the main
 
 
-open_port $answer
+open_port 
 
 
 
