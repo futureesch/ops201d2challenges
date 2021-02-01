@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script:                       
-# Author:                       
-# Date of latest revision:      
+# Script: Checking ports at ip address                      
+# Author: Tom Esch                      
+# Date of latest revision: 2/1/2021      
 # Purpose:      
     # Create a bash function that prints all currently listening and well-known ports of the targeted computer (don't worry about filtering the output right)   
 
@@ -36,6 +36,7 @@ echo "Enter the ip address you wish you view "
 read answer
 
 # Main: for this challenge the function IS the main
+
 
 open_port $answer
 
