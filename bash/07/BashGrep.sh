@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script:                       
-# Author:                       
-# Date of latest revision:      
+# Script: BashGrep.sh                       
+# Author: Tom Esch                      
+# Date of latest revision: February 2nd, 2021     
 # Purpose: 
     # regular expressions - REGX
     # grep [options] searchwordpattern [./randomfile.txt] like ctrl+find, except it will return the entire line for the pattern TARGETS STORAGE
