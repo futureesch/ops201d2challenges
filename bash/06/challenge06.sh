@@ -24,7 +24,7 @@
 
 # Declaration of function
 open_port () { 
-    nc -z -v $answer 20-80
+    nc -z -v $answer 1-1023
 }
 
 #show listening and well-known ports
